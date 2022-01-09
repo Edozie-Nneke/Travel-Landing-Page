@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700&display=swap');
+
+.benefit-and-get-inspired {
+  width: 100%;
+}
+
+.card {
+  width: 1262px;
+  height: 655px;
+  position: absolute;
+  left: 89px;
+  top: 739px;
+  padding: 0 99px;
+  background: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
+
+.card h2 {
+  margin-top: 93px;
+  margin-bottom: 120px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+}
+
+.card .benefit-card-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .benefit-card {
+  width: 317px;
+  height: 287px;
+}
+
+.card .benefit-card h4 {
+  margin-top: 37px;
+  margin-bottom: 26px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.card .benefit-card p {
+  margin-bottom: 39px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.card .benefit-card .learn-more {
+  width: 70%;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .benefit-card .learn-more span {
+  width: 102px;
+  height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #006dfe;
+}
+
+.card .benefit-card .learn-more img {
+  width: 33px;
+  height: 8px;
+}
+
+.get-inspired {
+  height: 735px;
+  width: 1264px;
+  position: absolute;
+  left: 88px;
+  top: 1525px;
+  font-family: 'Lato', sans-serif;
+}
+
+.get-inspired .wrapper {
+}
+
+.get-inspired .top-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.get-inspired .top-wrapper h2 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  color: #000000;
+}
+
+.get-inspired .top-wrapper h2::after {
+  content: '';
+  display: block;
+  width: 253px;
+  height: 3px;
+  background: #006dfe;
+}
+
+.get-inspired .top-wrapper .view-all {
+  width: 10%;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.get-inspired .top-wrapper .view-all span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #006dfe;
+}
