@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700&display=swap');
+
+.get-inspired {
+  width: 84%;
+  height: 735px;
+  position: absolute;
+  left: 88px;
+  top: 1525px;
+  font-family: 'Lato', sans-serif;
+}
+
+.get-inspired .top-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 37px;
+}
+
+.get-inspired .top-wrapper h2 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  color: #000000;
+}
+
+.get-inspired .top-wrapper h2::after {
+  content: '';
+  display: block;
+  width: 253px;
+  height: 3px;
+  background: #006dfe;
+}
+
+.get-inspired .top-wrapper .view-all {
+  width: 10%;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.get-inspired .top-wrapper .view-all span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #006dfe;
+}
+
+.image-wrapper {
+  width: 1264px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mount-fuji {
+  position: relative;
+  width: 619px;
+  height: 354px;
+}
+
+.mount-fuji img {
+  width: inherit;
+  height: inherit;
+}
+
+.mount-fuji .fuji-text {
+  position: absolute;
+  left: 29px;
+  bottom: 27px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.kyoto {
+  position: relative;
+  width: 635px;
+  height: 354px;
+}
+
+.kyoto img {
+  width: inherit;
+  height: inherit;
+}
+
+.kyoto .kyoto-text {
+  position: absolute;
+  left: 29px;
+  bottom: 27px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.tokyo {
+  position: relative;
+  width: 415px;
+  height: 283px;
+}
+
+.tokyo img {
+  width: inherit;
+  height: inherit;
+}
+
+.tokyo .tokyo-text {
+  position: absolute;
+  left: 29px;
+  bottom: 27px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.niigata {
+  position: relative;
+  width: 415px;
+  height: 283px;
+}
+
+.niigata img {
+  width: inherit;
+  height: inherit;
+}
+
+.niigata .niigata-text {
+  position: absolute;
+  left: 29px;
+  bottom: 27px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.sapporo {
+  position: relative;
+  width: 414px;
+  height: 283px;
+}
+
+.sapporo img {
+  width: inherit;
+  height: inherit;
+}
+
+.sapporo .sapporo-text {
+  position: absolute;
+  left: 29px;
+  bottom: 27px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+}

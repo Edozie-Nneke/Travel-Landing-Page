@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700&display=swap');
+
+.prefecture-and-neighborhood {
+  width: 1355px;
+  height: 785px;
+  position: absolute;
+  top: 2391px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Lato', sans-serif;
+}
+
+.row1 {
+  width: 100%;
+  height: 354px;
+  display: flex;
+}
+
+.row1 .support1 {
+  margin: 32px 0 20px 32px;
+}
+
+.row1 .support1 h3 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 85px;
+}
+
+.row1 .support1 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 58px;
+}
+
+.row1 .support1 div {
+  display: flex;
+  width: 225px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.row1 .support1 div span {
+  width: 159px;
+  height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #006dfe;
+}
+
+.row2 {
+  width: 1224px;
+  height: 354px;
+  display: flex;
+  margin-left: 53px;
+}
+
+.row2 .support2 {
+  margin: 32px 20px 32px 0;
+}
+
+.row2 .support2 div {
+  display: flex;
+  width: 225px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.row2 .support2 h3 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 85px;
+}
+
+.row2 .support2 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 58px;
+}
+
+.row2 .support2 div {
+  display: flex;
+  width: 196px;
+}
+
+.row2 .support2 div span {
+  width: 159px;
+  height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #006dfe;
+}
