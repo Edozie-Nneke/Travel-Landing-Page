@@ -1,4 +1,3 @@
-/* import url(''); */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700&display=swap');
 
 * {
@@ -24,123 +23,98 @@ main {
   background-color: linear-gradient(180deg, rgba(53, 66, 103, 0.0001) 0%, #151824 95.04%);
   color: #ffffff;
   width: 100%;
-  height: 962px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
   position: relative;
   font-family: 'Lato', sans-serif;
 }
 
-.hero nav {
-  width: 1082px;
-  height: 31px;
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  top: 77px;
-  left: 188px;
-  right: 170px;
-  bottom: 854px;
+.hero-content-wrapper {
+  width: 75%;
+  margin-top: 77px;
 }
 
-.hero nav .odigo-logo {
+.hero-content-wrapper nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 1082px;
+  height: 31px;
+}
+
+.hero-content-wrapper nav .odigo-logo {
   justify-content: flex-start;
 }
 
-.hero nav ul {
+.hero-content-wrapper nav ul {
   justify-content: flex-end;
 }
 
-.hero nav ul li {
+.hero-content-wrapper nav ul li {
   display: inline-block;
   margin-left: 42px;
 }
 
-.hero nav ul li a {
+.hero-content-wrapper nav ul li a {
   font-size: 18px;
   color: #ffffff;
 }
 
-.hero h1 {
-  position: absolute;
+.hero-content-wrapper h1 {
+  margin-top: 176px;
   width: 619px;
-  height: 121px;
-  top: 284px;
-  left: 188px;
-  right: 633px;
-  bottom: 557px;
   font-weight: 500;
   font-size: 50px;
   line-height: 60px;
 }
 
-.hero p {
-  position: absolute;
+.hero-content-wrapper p {
+  margin-top: 22px;
   width: 619px;
-  height: 121px;
-  font-size: 18px;
-  top: 427px;
-  left: 188px;
-  right: 706px;
-  bottom: 463px;
   font-weight: 400;
   font-size: 16px;
+  line-height: 24px;
 }
 
-.hero .search {
+.hero-content-wrapper .search-wrapper {
+  margin-top: 59px;
+  width: 886px;
+  height: 59px;
   display: flex;
   justify-content: space-between;
-  width: 297px;
-  height: 49px;
-  border: none;
-  position: absolute;
 }
 
-.hero .search .oval {
-  justify-content: flex-start;
+.hero-content-wrapper .search-wrapper .search {
+  width: 297px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #ffffff;
+}
+
+.hero-content-wrapper .search-wrapper .search .oval {
   width: 20px;
   height: 20px;
-  border: 2px solid #f2f2f2;
+  border: 2px solid #ffffff;
   border-radius: 50%;
 }
 
-.hero .search input {
-  padding-top: 0;
-  padding-left: 0;
-  background: transparent;
-  border: none;
-  outline: none;
-  color: #f2f2f2;
+.hero-content-wrapper .search-wrapper .placeholder {
+  justify-content: flex-end;
+  font-weight: 500;
   font-size: 18px;
   line-height: 24px;
-  font-weight: 500;
 }
 
-.hero .search input:focus {
-  outline: none;
-  border: none;
-}
-
-.hero #search-1 {
-  top: 558px;
-  left: 188px;
-  border-bottom: 3px solid #f2f2f2;
-}
-.hero #search-2 {
-  top: 558px;
-  left: 546px;
-  border-bottom: 3px solid #f2f2f2;
-}
-
-.hero button {
-  background: #1b7dff;
-  position: absolute;
+#search_btn {
   width: 171px;
   height: 58px;
   border: none;
   outline: none;
-  cursor: pointer;
-  top: 553px;
-  left: 903px;
   font-size: 24px;
   font-weight: 500;
+  line-height: 28.8px;
+  background: #1b7dff;
   color: #ffffff;
+  cursor: pointer;
 }

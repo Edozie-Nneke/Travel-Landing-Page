@@ -81,9 +81,6 @@
   font-family: 'Lato', sans-serif;
 }
 
-.get-inspired .wrapper {
-}
-
 .get-inspired .top-wrapper {
   display: flex;
   justify-content: space-between;
@@ -110,6 +107,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .get-inspired .top-wrapper .view-all span {
@@ -117,4 +115,12 @@
   font-size: 16px;
   line-height: 24px;
   color: #006dfe;
+}
+
+.wrapper .image-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.wrapper .image-wrapper .pictures {
 }
